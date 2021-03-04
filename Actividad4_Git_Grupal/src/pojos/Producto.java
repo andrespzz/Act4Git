@@ -12,7 +12,7 @@ public class Producto {
 	private double potencia2;
 
 	public Producto(double numProdR1, double numProdR2, int numProdE3, int numProdE4, double numProdR3,
-			double numProdR4, double numProdR5, double potencia1, double potencia2, double acumulado) {
+			double numProdR4, double numProdR5, double potencia1, double potencia2) {
 		super();
 		this.numProdR1 = numProdR1;
 		this.numProdR2 = numProdR2;
@@ -23,7 +23,6 @@ public class Producto {
 		this.numProdR5 = numProdR5;
 		this.potencia1 = potencia1;
 		this.potencia2 = potencia2;
-		this.acumulado = acumulado;
 
 	}
 
