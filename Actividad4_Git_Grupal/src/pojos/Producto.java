@@ -10,7 +10,6 @@ public class Producto {
 	private double numProdR5;
 	private double potencia1;
 	private double potencia2;
-	private double acumulado;
 
 	public Producto(double numProdR1, double numProdR2, int numProdE3, int numProdE4, double numProdR3,
 			double numProdR4, double numProdR5, double potencia1, double potencia2, double acumulado) {
@@ -30,26 +29,21 @@ public class Producto {
 
 	public double productoNumerosReales() {
 		double totalProd1 = numProdR1 * numProdR2;
-		acumulado += totalProd1;
-
 		return totalProd1;
 	}
 
 	public int productoNumerosEnteros() {
 		int totalProdEnteros = numProdE3 * numProdE4;
-		acumulado += totalProdEnteros;
 		return totalProdEnteros;
 	}
 
 	public double productoNumerosReales2() {
 		double totalProdReales2 = numProdR3 * numProdR4 * numProdR5;
-		acumulado += totalProdReales2;
 		return totalProdReales2;
 	}
 
 	public double potencia() {
 		double totalPotencia = Math.pow(potencia1, potencia2);
-		acumulado += totalPotencia;
 		return totalPotencia;
 	}
 
