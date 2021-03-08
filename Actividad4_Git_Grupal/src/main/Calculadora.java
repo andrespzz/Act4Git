@@ -1,5 +1,6 @@
 package main;
 
+import pojos.Producto;
 import pojos.Suma;
 
 public class Calculadora {
@@ -15,6 +16,12 @@ public class Calculadora {
 		// resta - diego
 
 		// producto - javi
+		Producto producto = new Producto();
+		
+		System.out.println("Producto dos números reales: " + producto.productoNumerosReales(50.50, 2.50));
+		System.out.println("Producto dos números enteros: " + producto.productoNumerosEnteros(100, 2));
+		System.out.println("Producto tres números reales: " + producto.productoNumerosReales2(50.75, 20.50, 100.01));
+		System.out.println("Potencia de un número: " + producto.potencia(50, 7));
 
 		// división - julia
 
