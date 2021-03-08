@@ -1,5 +1,6 @@
 package main;
 
+import pojos.Cociente;
 import pojos.Producto;
 import pojos.Suma;
 
@@ -24,7 +25,11 @@ public class Calculadora {
 		System.out.println("Potencia de un número: " + producto.potencia(50, 7));
 
 		// división - julia
-
+		Cociente division = new Cociente();
+		System.out.println("División dos números reales: " + division.DivisionDosReales(150.50, 5.70));
+		System.out.println("División dos números enteros: " + division.DivisionDosEnteros(70, 2));
+		System.out.println("División inverso real: " + division.InversoReal(150));
+		System.out.println("Raíz de un número: " + division.RaizNumero(50));
 	}
 
 }
