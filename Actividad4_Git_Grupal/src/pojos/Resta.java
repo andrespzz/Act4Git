@@ -7,7 +7,7 @@ public class Resta {
 	public Resta() {
 
 	}
-
+	
 	public double RestaDosReales(double a, double b) {
 		double restaDosReales = a - b;
 		valorAcumuladoResta += restaDosReales;
