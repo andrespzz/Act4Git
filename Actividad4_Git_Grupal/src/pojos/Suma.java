@@ -1,5 +1,12 @@
 package pojos;
 
+/**
+ * 
+ * @author Diego
+ * @version 1.0
+ *
+ */
+
 public class Suma {
 	
 	private double d;
@@ -89,24 +96,51 @@ public class Suma {
 	public Suma() {
 	}
 
+	/**
+	 * El metodo <i>SumaDosReales</i> suma dos numeros reales. </br>
+	 * <b>Ej:</b> 13.25 <b> +  </b> 65.50
+	 * @param a Representa el primer numero
+	 * @param b Representa el segundo numero
+	 * @return Devuelve la suma de los valores introducidos (a <b>+</b> b).
+	 */
 	public double SumaDosReales(double d, double e) {
 		double SumaDosReales = d + e;
 		valorAcumulado += SumaDosReales;
 		return SumaDosReales;
 	}
 
+	/**
+	 * El metodo <i>SumaDosEnteros</i> suma dos numeros enteros. </br>
+	 * <b>Ej:</b> 50 <b> +  </b> 60
+	 * @param a Representa el primer numero
+	 * @param b Representa el segundo numero
+	 * @return Devuelve la suma de los valores introducidos (a <b>+</b> b).
+	 */
 	public double SumaDosEnteros(double f, double g) {
 		double SumaDosEnteros = f + g;
 		valorAcumulado += SumaDosEnteros;
 		return SumaDosEnteros;
 	}
 
+	/**
+	 * El metodo <i>SumaTresReales</i> suma tres numeros reales. </br>
+	 * <b>Ej:</b> 100.50 <b> +  </b> 200.50 +  </b> 1000.01
+	 * @param a Representa el primer numero
+	 * @param b Representa el segundo numero
+	 * @return Devuelve la suma de los valores introducidos (a <b>+</b> b + </b> c).
+	 */
 	public double SumaTresReales(double h, double i, double j) {
 		double SumaTresReales = h + i + j;
 		valorAcumulado += SumaTresReales;
 		return SumaTresReales;
 	}
 
+	/**
+	 * El metodo <i>ValorAcumulado</i> acumula el resto de operaciones. </br>
+	 * @param a Representa el primer numero
+	 * @param b Representa el segundo numero
+	 * @return Devuelve la suma de los valores introducidos.
+	 */
 	public double ValorAcumulado() {
 		return valorAcumulado;
 	}
