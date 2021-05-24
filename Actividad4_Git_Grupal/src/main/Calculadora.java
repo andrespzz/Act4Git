@@ -8,7 +8,7 @@ import pojos.Suma;
 public class Calculadora {
 
 	public static void main(String[] args) {
-		// suma - andrés
+		// suma - diego
 		Suma suma = new Suma();
 
 		System.out.println("**SUMAS**");
@@ -16,7 +16,7 @@ public class Calculadora {
 		System.out.println("Suma dos números enteros: " + suma.SumaDosEnteros(50, 60)+ " Valor acumulado: " + suma.ValorAcumulado());
 		System.out.println("Suma tres números reales: " + suma.SumaTresReales(100.50, 200.50, 1000.01)+ " Valor acumulado: " + suma.ValorAcumulado());
 
-		// resta - diego
+		// resta - javi
 		Resta resta = new Resta();
 
 		System.out.println("\n**RESTAS**");
@@ -24,7 +24,7 @@ public class Calculadora {
 		System.out.println("Resta dos números enteros: " + resta.RestaDosEnteros(100, 60)+ " Valor acumulado: " + resta.valorAcumulado());
 		System.out.println("Resta tres números reales: " + resta.RestaTresReales(100.50, 7.50, 10.25)+ " Valor acumulado: " + resta.valorAcumulado());
 
-		// producto - javi
+		// producto - andrés
 		Producto producto = new Producto();
 		
 		System.out.println("\n**PRODUCTOS**");
