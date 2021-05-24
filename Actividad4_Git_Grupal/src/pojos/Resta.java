@@ -86,6 +86,7 @@ public class Resta {
 	public void setG(double g) {
 		this.g = g;
 	}
+<<<<<<< HEAD
 
 
 	public double getValorAcumuladoResta() {
@@ -111,6 +112,9 @@ public class Resta {
 	 * @param b Representa el segundo número.
 	 * @return Retorna el producto de los parámetros introducidos (a <b>-</b> b).
 	 */
+=======
+	
+>>>>>>> a7d485736e4455185fd18ed33c21dc4559f881e1
 	public double RestaDosReales(double a, double b) {
 		double restaDosReales = a - b;
 		valorAcumuladoResta += restaDosReales;
