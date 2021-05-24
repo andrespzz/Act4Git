@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"main","l":"Calculadora"},{"p":"pojos","l":"Cociente"},{"p":"pojos","l":"Producto"},{"p":"pojos","l":"Resta"},{"p":"pojos","l":"Suma"}];updateSearchResults();
